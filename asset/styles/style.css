@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lexend Tera", sans-serif;
+}
+
+img {
+    width: 100%;
+}
+.primary-color {
+    color: #007E85;
+}
+
+.secondary-color {
+    color: #6EAB36;
+}
+.container {
+    padding: 20px 100px;
+}
+
+.basic-btn {
+    font-size: 20px;
+    font-weight: 500;
+    color: #007E85;
+    background: transparent;
+    padding: 4px 8px;
+    outline:  none;
+    border: none;
+
+}
+
+.primary-btn {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background: #007E85;
+    padding: 13px 40px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+header {
+    padding: 26px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    max-width: 254px;
+    width: 100%;
+}
+.nav-link {
+    display: flex;
+    column-gap: 26px;
+    align-items: center;
+}
+
+.nav-link-list {
+    list-style-type: none;
+}
+
+.nav-link-list a {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-link-list a:hover {
+    color: #007E85;
+}
+
+.nav-link-list a.active {
+    color: #007E85;
+    border-bottom: 2px solid #007E85;
+}
+
+.nav-link-list a:active {
+    color: #007E85;
+    border-bottom: 2px solid #007E85;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .left {
+    max-width: 657px;
+    width: 100%;
+
+}
+
+.hero-heading {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+}
+
+.hero-heading span{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+}
+
+.hero .left p{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+}
+
+.hero .left .action-btns{
+    margin-top: 100px;
+    display: flex;
+    gap: 46px;
+}
+
+.watch-btn {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    outline: none;
+    border: none;
+    background: transparent;
+
+}
+
+.watch-btn .play-rounded {
+    width: 51px;
+    height: 51px;
+    background: #007E85;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.watch-btn .play-rounded .material-symbols-sharp{
+    font-size: 50 !important;
+    color: #fff;
+
+}
+
+
+
